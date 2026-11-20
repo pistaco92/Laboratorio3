@@ -1,0 +1,19 @@
+{
+  "study_name": "olivetti_cae_d32_fcn1d",
+  "dataset": "olivetti",
+  "encoder": "cae",
+  "latent_dim": 32,
+  "classifier": "fcn1d",
+  "best_val_macro_f1": 0.7934523809523809,
+  "best_params": {
+    "lr": 0.0016967533607196547,
+    "wd": 4.335281794951567e-06,
+    "batch": 32,
+    "channels": 32
+  },
+  "best_epoch": 44,
+  "n_params": 18184,
+  "n_trials_total": 10,
+  "n_pruned": 5,
+  "n_complete": 5
+}

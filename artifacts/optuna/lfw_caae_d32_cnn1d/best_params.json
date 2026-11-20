@@ -1,0 +1,21 @@
+{
+  "study_name": "lfw_caae_d32_cnn1d",
+  "dataset": "lfw",
+  "encoder": "caae",
+  "latent_dim": 32,
+  "classifier": "cnn1d",
+  "best_val_macro_f1": 0.34273945233963593,
+  "best_params": {
+    "lr": 0.0005824665263020353,
+    "wd": 7.618872278504358e-05,
+    "batch": 32,
+    "channels": 32,
+    "kernel": 5,
+    "dropout": 0.4
+  },
+  "best_epoch": 18,
+  "n_params": 137534,
+  "n_trials_total": 10,
+  "n_pruned": 3,
+  "n_complete": 7
+}

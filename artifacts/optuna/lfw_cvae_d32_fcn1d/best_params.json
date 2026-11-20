@@ -1,0 +1,19 @@
+{
+  "study_name": "lfw_cvae_d32_fcn1d",
+  "dataset": "lfw",
+  "encoder": "cvae",
+  "latent_dim": 32,
+  "classifier": "fcn1d",
+  "best_val_macro_f1": 0.1173626053335091,
+  "best_params": {
+    "lr": 0.0028489590310213637,
+    "wd": 3.8158264832008966e-05,
+    "batch": 32,
+    "channels": 32
+  },
+  "best_epoch": 28,
+  "n_params": 18910,
+  "n_trials_total": 10,
+  "n_pruned": 4,
+  "n_complete": 6
+}

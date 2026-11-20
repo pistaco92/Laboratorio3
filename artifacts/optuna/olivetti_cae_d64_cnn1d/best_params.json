@@ -1,0 +1,21 @@
+{
+  "study_name": "olivetti_cae_d64_cnn1d",
+  "dataset": "olivetti",
+  "encoder": "cae",
+  "latent_dim": 64,
+  "classifier": "cnn1d",
+  "best_val_macro_f1": 0.9533333333333331,
+  "best_params": {
+    "lr": 0.0014660654354754462,
+    "wd": 6.877126924159803e-05,
+    "batch": 32,
+    "channels": 32,
+    "kernel": 5,
+    "dropout": 0.4
+  },
+  "best_epoch": 7,
+  "n_params": 174376,
+  "n_trials_total": 10,
+  "n_pruned": 2,
+  "n_complete": 8
+}

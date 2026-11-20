@@ -1,0 +1,19 @@
+{
+  "study_name": "olivetti_caae_d64_fcn1d",
+  "dataset": "olivetti",
+  "encoder": "caae",
+  "latent_dim": 64,
+  "classifier": "fcn1d",
+  "best_val_macro_f1": 0.5638095238095238,
+  "best_params": {
+    "lr": 0.0020942518014404436,
+    "wd": 9.882175067155596e-06,
+    "batch": 16,
+    "channels": 16
+  },
+  "best_epoch": 44,
+  "n_params": 5016,
+  "n_trials_total": 10,
+  "n_pruned": 5,
+  "n_complete": 5
+}
